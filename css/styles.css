@@ -147,8 +147,8 @@ h1{
     align-items: center;
 }
 img#pawPrint{
-    height: 15%;
-    width: 15%;
+    height: 10%;
+    width: 10%;
     margin-bottom: 1%;
 }
 #navDestacados{
@@ -159,7 +159,6 @@ img#pawPrint{
 #products{
     width: 100vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-bottom: 5%;
 }
@@ -209,6 +208,7 @@ img#pawPrint{
     color: #FFFFFF;
     padding-left: 4%;
 }
+
 #contactFormButtons{
     display: flex;
     align-items: center;
@@ -249,8 +249,44 @@ footer{
 /*-------Upper Footer--------*/
 .upperFooter{
     background: #F0A83E; 
+    height: 50%;
     display:flex; 
+    justify-content: space-between;
+    align-content: center;
+}
+img#correo{
+    padding-left: 2%;
+}
+#suscripcionFooter{
+    display: flex;
     align-items: center;
+}
+#contactFormInputFooter{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+#contactFormInputFooter input{
+    height: 3vh;
+    width: 60%;
+    border-radius: 10px;
+}
+.contactFormInputFooter::placeholder{
+    color: #FFFFFF;
+    padding-left: 4%;
+}
+#suscripcionButton{
+    font-size: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 20%;
+    height: 3.5vh;
+    background: #3C2313;
+    border: none;
+    border-radius: 20px;
+    margin: 0 1%;
 }
 
 /*-------Mid Footer--------*/
